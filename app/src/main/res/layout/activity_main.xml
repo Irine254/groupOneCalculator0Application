@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:id="@+id/et_screen_id"
+        android:id="@+id/tv_screen_id"
         android:textColor="@color/colorWhite"
         android:background="@color/colorPurple"/>
 
@@ -95,6 +95,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_four_id"
         android:text="4"
+        android:textStyle="bold"
         android:textSize="30dp"
         android:layout_below="@id/bt_seven_id"/>
 
@@ -103,6 +104,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_five_id"
         android:text="5"
+        android:textStyle="bold"
         android:textSize="28dp"
         android:textColor="@color/colorWhite"
         android:layout_below="@id/bt_eight_id"
@@ -114,6 +116,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_six_id"
         android:text="6"
+        android:textStyle="bold"
         android:textSize="30dp"
         android:layout_below="@id/bt_nine_id"
         android:layout_toRightOf="@id/bt_five_id"/>
@@ -133,6 +136,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_one_id"
         android:text="1"
+        android:textStyle="bold"
         android:textSize="30dp"
         android:textColor="@color/colorWhite"
         android:layout_below="@id/bt_four_id"
@@ -143,6 +147,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_two_id"
         android:text="2"
+        android:textStyle="bold"
         android:textSize="27dp"
         android:layout_below="@id/bt_five_id"
         android:layout_toRightOf="@id/bt_one_id"/>
@@ -152,6 +157,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_three_id"
         android:text="3"
+        android:textStyle="bold"
         android:textSize="30dp"
         android:textColor="@color/colorWhite"
         android:background="@color/colorBlack"
@@ -163,6 +169,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_zero_id"
         android:text="0"
+        android:textStyle="bold"
         android:textSize="30dp"
         android:background="@color/colorWhite"
         android:layout_below="@id/bt_one_id"
@@ -185,6 +192,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_answer_id"
         android:text="="
+        android:textStyle="bold"
         android:textSize="30dp"
         android:layout_below="@id/bt_plus_id"
         android:layout_toRightOf="@id/bt_three_id"
