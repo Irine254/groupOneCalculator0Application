@@ -45,32 +45,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-         Button division = (Button)findViewById(R.id.bt_division_id);
-        division.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
-                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
-
-                Value1 = Float.parseFloat(myEditText.getText()+"");
-
-                mDivision = true;
-
-                myEditText.setText(null);
-
-                if (mDivision == true){
-
-                    myEditText.setText(Value1 / Value2 +"");
-
-                    mDivision = false;
-                }
-
-
-            }
-        });
-
-
 
         Button seven = (Button)findViewById(R.id.bt_seven_id);
         seven.setOnClickListener(new View.OnClickListener() {
@@ -201,6 +175,99 @@ public class MainActivity extends AppCompatActivity {
                 myEditText.setText(myEditText.getText()+"0");
             }
         });
+
+        Button decimal = (Button)findViewById(R.id.bt_decimal_id);
+        decimal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+".");
+
+            }
+        });
+
+        Button  division = (Button)findViewById(R.id.bt_division_id);
+        division.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"/");
+
+
+            }
+        });
+
+        Button multiplication = (Button)findViewById(R.id.bt_multiplication_id);
+        multiplication.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"*");
+            }
+        });
+
+        Button  minus = (Button)findViewById(R.id.bt_minus_id);
+        minus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"-");
+            }
+        });
+
+        Button plus = (Button)findViewById(R.id.bt_plus_id);
+        plus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"+");
+            }
+        });
+
+        Button delete = (Button)findViewById(R.id.bt_delete_id);
+
+        delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText("");
+                myTextView.setText("");
+            }
+        });
+
+        Button equal = (Button)findViewById(R.id.bt_equal_id);
+        equal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                Value2 = Float.parseFloat(myEditText.getText()+"");
+
+            }
+        });
+
+
+
 
 
 

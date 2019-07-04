@@ -16,18 +16,22 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:id="@+id/et_screen1_id"
+            android:textSize="30dp"
             android:textColor="@color/colorBlack"
             android:background="@color/colorWhite"
-            android:textAlignment="textEnd"/>
+            android:textAlignment="textEnd"
+            android:gravity="end" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:id="@+id/tv_screen2_id"
+            android:textSize="30dp"
             android:layout_below="@id/et_screen1_id"
             android:textColor="@color/colorBlack"
             android:background="@color/colorWhite"
-            android:textAlignment="textEnd"/>
+            android:textAlignment="textEnd"
+            android:gravity="end" />
     </RelativeLayout>
 
 
@@ -50,8 +54,7 @@
                 android:text="/"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:textColor="@color/colorBlack"
-                android:layout_marginStart="10dp"/>
+                android:textColor="@color/colorBlack"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -69,9 +72,9 @@
                 android:text="del"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:paddingLeft="80dp"
-                android:paddingRight="100dp"
-                android:textColor="@color/colorBlack"/>
+                android:textColor="@color/colorBlack"
+                android:paddingLeft="50dp"
+                android:paddingRight="90dp"/>
 
         </LinearLayout>
 
@@ -89,8 +92,7 @@
                 android:text="7"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:textColor="@color/colorBlack"
-                android:layout_marginStart="10dp"/>
+                android:textColor="@color/colorBlack"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -116,9 +118,7 @@
                 android:text="-"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:textColor="@color/colorBlack"
-                android:paddingRight="50dp"
-                android:paddingLeft="70dp"/>
+                android:textColor="@color/colorBlack"/>
 
 
         </LinearLayout>
@@ -137,7 +137,7 @@
                 android:text="4"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:layout_marginStart="10dp"/>
+                 />
 
             <Button
                 android:layout_width="wrap_content"
@@ -163,11 +163,7 @@
                 android:text="+"
                 android:textStyle="bold"
                 android:textSize="20dp"
-
-                android:textColor="@color/colorBlack"
-                android:paddingLeft="70dp"
-                android:paddingRight="50dp"/>
-
+                android:textColor="@color/colorBlack"/>
         </LinearLayout>
 
         <LinearLayout
@@ -185,8 +181,7 @@
                 android:text="1"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:textColor="@color/colorBlack"
-                android:layout_marginStart="10dp"/>
+                android:textColor="@color/colorBlack"/>
 
             <Button
                 android:id="@+id/bt_two_id"
@@ -213,9 +208,8 @@
                 android:text="."
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:paddingLeft="70dp"
-                android:textColor="@color/colorBlack"
-                android:paddingRight="50dp"/>
+                android:paddingLeft="40dp"
+                android:textColor="@color/colorBlack"/>
 
         </LinearLayout>
 
@@ -235,8 +229,7 @@
                 android:textStyle="bold"
                 android:paddingRight="50dp"
                 android:paddingLeft="70dp"
-                android:textColor="@color/colorBlack"
-                android:layout_marginStart="10dp"/>
+                android:textColor="@color/colorBlack"/>
 
             <Button
                 android:id="@+id/bt_equal_id"
@@ -245,9 +238,8 @@
                 android:text="="
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:paddingLeft="130dp"
-                android:paddingRight="110dp"
-                android:layout_marginStart="10dp" />
+                android:paddingRight="100dp"
+                android:paddingLeft="109dp"/>
 
         </LinearLayout>
 
