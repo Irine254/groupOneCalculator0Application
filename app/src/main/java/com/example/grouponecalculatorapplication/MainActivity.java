@@ -119,12 +119,86 @@ public class MainActivity extends AppCompatActivity {
                 EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
                 TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
 
-
-
-                myTextView.setText(myTextView.getText()+"4");
+                myEditText.setText(myEditText.getText()+"4");
 
 
 
+            }
+        });
+
+        Button five = (Button)findViewById(R.id.bt_five_id);
+        five.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"5");
+
+            }
+        });
+
+
+        Button six = (Button)findViewById(R.id.bt_six_id);
+        six.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"6");
+            }
+        });
+
+        Button one = (Button)findViewById(R.id.bt_one_id);
+        one.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"1");
+            }
+        });
+
+        Button two = (Button)findViewById(R.id.bt_two_id);
+        two.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"2");
+            }
+        });
+
+        Button three = (Button)findViewById(R.id.bt_three_id);
+        three.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"3");
+
+
+            }
+        });
+
+        Button zero = (Button)findViewById(R.id.bt_zero_id);
+        zero.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"0");
             }
         });
 

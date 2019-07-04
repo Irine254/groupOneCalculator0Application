@@ -18,7 +18,8 @@
             android:layout_height="60dp"
             android:id="@+id/et_screen1_id"
             android:textColor="@color/colorWhite"
-            android:background="@color/colorBlue"/>
+            android:background="@color/colorBlue"
+            android:textAlignment="textEnd"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -26,7 +27,8 @@
             android:id="@+id/tv_screen2_id"
             android:layout_below="@id/et_screen1_id"
             android:textColor="@color/colorWhite"
-            android:background="@color/colorBlue"/>
+            android:background="@color/colorBlue"
+            android:textAlignment="textEnd"/>
     </RelativeLayout>
 
 
