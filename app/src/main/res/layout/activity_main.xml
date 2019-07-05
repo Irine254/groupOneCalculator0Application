@@ -91,6 +91,7 @@
                 android:id="@+id/bt_seven_id"
                 android:text="7"
                 android:textStyle="bold"
+                android:background="@color/colorRed"
                 android:textSize="20dp"
                 android:textColor="@color/colorBlack"/>
 
@@ -99,6 +100,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/bt_eight_id"
                 android:text="8"
+                android:background="@color/colorBlack"
+                android:textColor="@color/colorWhite"
                 android:textStyle="bold"
                 android:textSize="20dp"/>
 
@@ -107,6 +110,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/bt_nine_id"
                 android:text="9"
+                android:background="@color/colorPurple"
                 android:textStyle="bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorBlack"/>
@@ -117,8 +121,9 @@
                 android:id="@+id/bt_minus_id"
                 android:text="-"
                 android:textStyle="bold"
+                android:background="@color/colorRed"
                 android:textSize="20dp"
-                android:textColor="@color/colorBlack"/>
+                android:textColor="@color/colorWhite"/>
 
 
         </LinearLayout>
@@ -135,6 +140,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/bt_four_id"
                 android:text="4"
+                android:background="@color/colorPurple"
                 android:textStyle="bold"
                 android:textSize="20dp"
                  />
@@ -144,6 +150,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/bt_five_id"
                 android:text="5"
+                android:background="@color/colorBlue"
                 android:textStyle="bold"
                 android:textSize="20dp"
                 android:textColor="@color/colorBlack"/>
@@ -153,6 +160,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/bt_six_id"
                 android:text="6"
+                android:background="@color/colorRed"
                 android:textStyle="bold"
                 android:textSize="20dp"/>
 
@@ -162,8 +170,9 @@
                 android:id="@+id/bt_plus_id"
                 android:text="+"
                 android:textStyle="bold"
+                android:background="@color/colorMaroon"
                 android:textSize="20dp"
-                android:textColor="@color/colorBlack"/>
+                android:textColor="@color/colorWhite"/>
         </LinearLayout>
 
         <LinearLayout
@@ -180,14 +189,17 @@
                 android:layout_height="wrap_content"
                 android:text="1"
                 android:textSize="20dp"
+                android:background="@color/colorMaroon"
                 android:textStyle="bold"
-                android:textColor="@color/colorBlack"/>
+                android:textColor="@color/colorWhite"/>
 
             <Button
                 android:id="@+id/bt_two_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorBlack"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -198,7 +210,7 @@
                 android:text="3"
                 android:textStyle="bold"
                 android:textSize="20dp"
-
+                android:background="@color/colorMaroon"
                 android:textColor="@color/colorBlack"/>
 
             <Button
@@ -207,9 +219,10 @@
                 android:id="@+id/bt_decimal_id"
                 android:text="."
                 android:textStyle="bold"
+                android:background="@color/colorPurple"
                 android:textSize="20dp"
                 android:paddingLeft="40dp"
-                android:textColor="@color/colorBlack"/>
+                android:textColor="@color/colorWhite"/>
 
         </LinearLayout>
 
@@ -229,7 +242,8 @@
                 android:textStyle="bold"
                 android:paddingRight="50dp"
                 android:paddingLeft="70dp"
-                android:textColor="@color/colorBlack"/>
+                android:background="@color/colorBlue"
+                android:textColor="@color/colorWhite"/>
 
             <Button
                 android:id="@+id/bt_equal_id"
@@ -237,6 +251,7 @@
                 android:layout_height="wrap_content"
                 android:text="="
                 android:textSize="20dp"
+                android:background="@color/colorGreen"
                 android:textStyle="bold"
                 android:paddingRight="100dp"
                 android:paddingLeft="109dp"/>

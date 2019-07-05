@@ -189,15 +189,47 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-         Button  division = (Button)findViewById(R.id.bt_division_id);
-        division.setOnClickListener(new View.OnClickListener() {
+
+         Button delete = (Button)findViewById(R.id.bt_delete_id);
+
+        delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
                 TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
 
-                myEditText.setText(myEditText.getText()+"/");
+                myEditText.setText("");
+                myTextView.setText("");
+
+
+            }
+        });
+
+        Button plus = (Button)findViewById(R.id.bt_plus_id);
+        plus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"+");
+
+
+            }
+        });
+
+
+        Button minus = (Button)findViewById(R.id.bt_minus_id);
+        minus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
+                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
+
+                myEditText.setText(myEditText.getText()+"-");
 
 
             }
@@ -212,50 +244,32 @@ public class MainActivity extends AppCompatActivity {
                 TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
 
                 myEditText.setText(myEditText.getText()+"*");
+
+
             }
         });
 
-        Button  minus = (Button)findViewById(R.id.bt_minus_id);
-        minus.setOnClickListener(new View.OnClickListener() {
+
+        Button division = (Button)findViewById(R.id.bt_division_id);
+        division.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
                 TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
 
-                myEditText.setText(myEditText.getText()+"-");
+                myEditText.setText(myEditText.getText()+"/");
+
+
             }
         });
 
-        Button plus = (Button)findViewById(R.id.bt_plus_id);
-        plus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
-                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
 
-                myEditText.setText(myEditText.getText()+"+");
-            }
-        });
 
-         Button delete = (Button)findViewById(R.id.bt_delete_id);
 
-        delete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
-                TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
-
-                myEditText.setText("");
-                myTextView.setText("");
-            }
-        });
 
         Button equal = (Button)findViewById(R.id.bt_equal_id);
-
-
 
         equal.setOnClickListener(new View.OnClickListener() {
             @Override
