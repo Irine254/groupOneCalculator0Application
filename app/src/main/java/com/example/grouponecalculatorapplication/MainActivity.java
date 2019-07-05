@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
     private Button eight;
     private Button nine;
     private Button minus;
-    private  Button four;
-    private  Button five;
-    private  Button six;
+    private Button four;
+    private Button five;
+    private Button six;
     private Button plus;
     private Button one;
     private Button two;
@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button  division = (Button)findViewById(R.id.bt_division_id);
+         Button  division = (Button)findViewById(R.id.bt_division_id);
         division.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -239,7 +239,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button delete = (Button)findViewById(R.id.bt_delete_id);
+         Button delete = (Button)findViewById(R.id.bt_delete_id);
 
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -254,6 +254,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button equal = (Button)findViewById(R.id.bt_equal_id);
+
+
+
         equal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -261,7 +264,35 @@ public class MainActivity extends AppCompatActivity {
                 EditText  myEditText = (EditText)findViewById(R.id.et_screen1_id);
                 TextView  myTextView = (TextView)findViewById(R.id.tv_screen2_id);
 
-                Value2 = Float.parseFloat(myEditText.getText()+"");
+                Value2 = Float.parseFloat(myTextView.getText()+"");
+
+                if(mPlus == true){
+
+                    myTextView.setText(Value1 + Value2 +"");
+                    mPlus=false;
+                }
+
+
+
+                if (mMinus==true);{
+
+                    myTextView.setText(Value1-Value2 +"");
+                    mMinus=false;
+                }
+
+
+
+                if (mMultiplication==true);{
+                    myTextView.setText(Value1*Value2 +"");
+                    mMultiplication=false;
+                }
+
+
+                if (mDivision==true);{
+                    myTextView.setText(Value1/Value2 +"");
+                    mDivision=false;
+                }
+
 
             }
         });
@@ -283,7 +314,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-              }
+
+}
 
 
 
